@@ -1,0 +1,39 @@
+# Source files (publish only dist)
+credentials/
+nodes/
+test/
+scripts/
+
+# Config files
+.eslintrc.js
+.prettierrc
+tsconfig.json
+gulpfile.js
+jest.config.js
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Development files
+*.log
+coverage/
+.cache/
+*.tmp
+*.temp
+
+# Git
+.git/
+.gitignore
+
+# Don't ignore these
+!dist/
+!package.json
+!README.md
+!LICENSE
+!COMMERCIAL_LICENSE.md
+!LICENSING_FAQ.md
